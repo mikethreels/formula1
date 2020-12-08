@@ -2,26 +2,27 @@ import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import Routes from '../routes';
 import * as Action from '../actions/index';
-import getDrivers from '../modules/apicall';
-// import addDriverToStore from '../modules/storeUpdate';
+import * as getDrivers from '../modules/apicall';
+import Header from './background';
 
 const App = () => {
   const dispatch = useDispatch();
 
-  const addDriverToStore = async () => {
-    const driverObject = await getDrivers();
-    const driverList = driverObject.MRData.DriverTable.Drivers;
-    driverList.forEach(driver => {
-      dispatch(Action.createDriver(driver));
+  const addScoreToStore = async () => {
+    const scoreObject = await getDrivers.getStandings();
+    const scoreList = scoreObject.MRData.StandingsTable.StandingsLists[0].DriverStandings;
+    scoreList.forEach(score => {
+      dispatch(Action.createScore(score));
     });
   };
 
   useEffect(() => {
-    addDriverToStore();
+    addScoreToStore();
   }, []);
 
   return (
     <React.StrictMode>
+      <Header />
       <Routes />
     </React.StrictMode>
   );

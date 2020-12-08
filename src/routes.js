@@ -8,7 +8,7 @@ function Routes() {
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={driverOverview} />
-        <Route exact path="/details" component={driverDetails} />
+        <Route exact path="/details/:driver" component={driverDetails} />
       </Switch>
     </BrowserRouter>
   );
