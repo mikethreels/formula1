@@ -4,9 +4,9 @@
 import React, { useState } from 'react';
 import { connect, useDispatch } from 'react-redux';
 import * as Actions from '../actions/index';
-import Driver from './driver';
+import Driver from '../components/driver';
 import driverStyles from './styles/driver.module.css';
-import CategoryFilter from './categoryfilter';
+import CategoryFilter from '../components/categoryfilter';
 
 const driverOverview = props => {
   const { scores } = props;

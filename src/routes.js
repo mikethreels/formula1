@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import driverOverview from './components/driver-overview';
+import driverOverview from './containers/driver-overview';
 import driverDetails from './components/driver-details';
 
 function Routes() {

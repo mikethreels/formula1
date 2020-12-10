@@ -1,0 +1,21 @@
+.all_drivers {
+  display: grid;
+  grid-template-columns: 20vw 1fr ;
+}
+
+.drivercontainer {
+  margin: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 35px;
+  grid-column: 2 / 3;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.driver {
+  padding: 5px 0 5px 15px;
+  background-image: linear-gradient(to right, #121f45, #4d4f70, #86859d, #c2c0cd, #ffffff);
+  color: #ff1801;
+  width: 60vw;
+  border-radius: 10px;
+}

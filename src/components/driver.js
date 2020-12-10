@@ -1,3 +1,4 @@
+/* eslint-disable react/forbid-prop-types */
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
@@ -27,7 +28,7 @@ export const Driver = props => {
   );
 };
 
-Driver.propTypes = { driver: PropTypes.objectOf(PropTypes.string) };
+Driver.propTypes = { driver: PropTypes.object };
 
 Driver.defaultProps = {
   driver: {},
