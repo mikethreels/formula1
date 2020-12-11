@@ -1,3 +1,4 @@
+/* eslint-disable react/forbid-prop-types */
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable no-restricted-globals */
 import React from 'react';
@@ -65,7 +66,7 @@ const driverDetails = props => {
   );
 };
 
-driverDetails.propTypes = { driver: PropTypes.objectOf(PropTypes.string) };
+driverDetails.propTypes = { driver: PropTypes.object };
 
 driverDetails.defaultProps = {
   driver: {},
