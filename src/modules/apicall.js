@@ -1,4 +1,4 @@
-const standingsUri = 'http://ergast.com/api/f1/current/driverStandings.json?limit=60';
+const standingsUri = 'https://ergast.com/api/f1/current/driverStandings.json?limit=60';
 
 const getStandings = async () => {
   try {
