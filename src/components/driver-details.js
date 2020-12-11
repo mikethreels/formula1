@@ -1,6 +1,5 @@
 /* eslint-disable react/forbid-prop-types */
 /* eslint-disable react/jsx-no-target-blank */
-/* eslint-disable no-restricted-globals */
 import React from 'react';
 import { connect } from 'react-redux';
 import { useParams } from 'react-router-dom';
@@ -9,7 +8,6 @@ import detailStyles from './styles/driver-details.module.css';
 
 const driverDetails = props => {
   const { scores } = props;
-  // const match = useRouteMatch('/details/:driver');
   const { driver } = useParams();
   const currentDriver = scores.find(c => c.position === driver);
   return (

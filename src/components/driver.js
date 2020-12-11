@@ -6,11 +6,6 @@ import driverStyles from './styles/driver.module.css';
 
 export const Driver = props => {
   const { driver } = props;
-  // const newTo = {
-  //   pathname: '/details',
-  //   search: driver.driverId,
-  //   state: driver,
-  // };
   return (
     <Link to={`details/${driver.position}`} className={driverStyles.drivercontainer}>
       <div className={driverStyles.driver}>

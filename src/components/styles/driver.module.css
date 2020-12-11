@@ -1,6 +1,6 @@
 .all_drivers {
   display: grid;
-  grid-template-columns: 20vw 1fr ;
+  grid-template-columns: 20vw 1fr;
 }
 
 .drivercontainer {
@@ -14,7 +14,7 @@
 
 .driver {
   padding: 5px 0 5px 15px;
-  background-image: linear-gradient(to right, #121f45, #4d4f70, #86859d, #c2c0cd, #ffffff);
+  background-image: linear-gradient(to right, #121f45, #4d4f70, #86859d, #c2c0cd, #fff);
   color: #ff1801;
   width: 60vw;
   border-radius: 10px;

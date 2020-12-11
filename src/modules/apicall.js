@@ -9,7 +9,6 @@ const getStandings = async () => {
 
     const resp = await fetch(standingsUri, options);
     const response = await resp.json();
-    console.log(response);
     return response;
   } catch (e) {
     return e;
