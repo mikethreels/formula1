@@ -4,4 +4,14 @@ const createDriver = driver => ({
   payload: driver,
 });
 
-export { createDriver };
+const createScore = driver => ({
+  type: 'FETCH_SCORE_SUCCES',
+  payload: driver,
+});
+
+const changeFilter = filter => ({
+  type: 'CHANGE_FILTER',
+  payload: filter,
+});
+
+export { createDriver, createScore, changeFilter };

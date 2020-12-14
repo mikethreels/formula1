@@ -1,14 +1,18 @@
-const uri = 'http://ergast.com/api/f1/2020/drivers.json?limit=60';
+const standingsUri = 'https://ergast.com/api/f1/current/driverStandings.json?limit=60';
 
-const getDrivers = async () => {
-  const options = {
-    method: 'GET',
-    mode: 'cors',
-  };
+const getStandings = async () => {
+  try {
+    const options = {
+      method: 'GET',
+      mode: 'cors',
+    };
 
-  const resp = await fetch(uri, options);
-  const response = await resp.json();
-  return response;
+    const resp = await fetch(standingsUri, options);
+    const response = await resp.json();
+    return response;
+  } catch (e) {
+    return e;
+  }
 };
 
-export default getDrivers;
+export default getStandings;

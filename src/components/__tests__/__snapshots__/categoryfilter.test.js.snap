@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Category filter correctly 1`] = `
+<div>
+  <label
+    htmlFor="category"
+  >
+    DRIVER FILTER: 
+  </label>
+  <select
+    id="category"
+    onChange={[Function]}
+    value="All"
+  >
+    <option
+      selected={true}
+    >
+      All
+    </option>
+    <option>
+      Mercedes
+    </option>
+    <option>
+      Red-bull
+    </option>
+    <option>
+      Ferrari
+    </option>
+  </select>
+</div>
+`;
