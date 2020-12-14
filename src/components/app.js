@@ -19,7 +19,7 @@ const App = () => {
   };
 
   useEffect(() => {
-    addScoreToStore().catch(e => window.alert(`Error:  ${e.message}`));
+    addScoreToStore();
   }, []);
 
   return (
