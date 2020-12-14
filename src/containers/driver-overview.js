@@ -31,7 +31,7 @@ const driverOverview = props => {
   return (
     <div className={driverStyles.all_drivers}>
       <CategoryFilter categories={constructorArray} callback={handleFilterChange} value={constructor} />
-      {filteredracers.map(driver => <Driver key={driver.Driver.permanentNumber} driver={driver} />)}
+      {filteredracers.map(driver => <Driver key={Math.random()} driver={driver} />)}
     </div>
   );
 };
