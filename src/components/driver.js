@@ -10,10 +10,6 @@ export const Driver = props => {
     <Link to={`details/${driver.position}`} className={driverStyles.drivercontainer}>
       <div className={driverStyles.driver}>
         <span>
-          {driver.position}
-          &nbsp;
-        </span>
-        <span>
           {driver.Driver.givenName}
           &nbsp;
         </span>

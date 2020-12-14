@@ -1,7 +1,6 @@
 /* eslint-disable no-alert */
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-// import { persistStore } from 'redux-persist';
 import Routes from '../routes';
 import * as Action from '../actions/index';
 import getStandings from '../modules/apicall';

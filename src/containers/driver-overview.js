@@ -16,7 +16,6 @@ const driverOverview = props => {
   const constructorArray = tempArray.filter((item, pos) => {
     return tempArray.indexOf(item) === pos;
   });
-
   let filteredracers = scores;
 
   const handleFilterChange = event => {
