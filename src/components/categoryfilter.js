@@ -9,7 +9,7 @@ const CategoryFilter = props => {
   } = props;
   return (
     <div>
-      <label htmlFor="category">DRIVER FILTER: </label>
+      <label htmlFor="category">CONSTRUCTOR FILTER: </label>
       <select id="category" onChange={callback} value={value}>
         <option selected>All</option>
         {categories.map(x => <option key={x}>{x}</option>)}
