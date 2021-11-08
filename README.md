@@ -1,7 +1,7 @@
 # React calculator App
 This is a Formula 1 information app build with React
 
-![screenshot](./src/images/app_screenshot.png)
+![screenshot](./src/images/app_screenshot1.png)
 
 
 ## Built With
