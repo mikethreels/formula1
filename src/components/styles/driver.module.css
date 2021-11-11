@@ -15,7 +15,7 @@
 .driver {
   padding: 5px 0 5px 15px;
   background-image: linear-gradient(to right, rgba(18, 31, 69, 0.7), rgba(77, 79, 112, 0.7), rgba(134, 133, 157, 0.7), rgba(194, 192, 205, 0.7), rgba(255, 255, 255, 0.5));
-  color: #070404;
+  color: #ff1801;
   width: 60vw;
   border-radius: 10px;
 }
