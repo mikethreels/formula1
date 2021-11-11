@@ -1,4 +1,8 @@
 .all_drivers {
+  background-image: url(../../assets/images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   display: grid;
   grid-template-columns: 20vw 1fr;
 }
