@@ -1,4 +1,4 @@
-# React calculator App
+# React Formula 1 App
 This is a Formula 1 information app build with React
 
 ![screenshot](./src/images/app_screenshot1.png)
