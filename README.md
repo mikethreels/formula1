@@ -1,5 +1,5 @@
 # React Formula 1 App
-This is a Formula 1 information app build with React
+With this application, you'll be able to find all the current drivers on the grid, their points and the constructors they're driving for.
 
 ![screenshot](./src/images/app_screenshot1.png)
 
